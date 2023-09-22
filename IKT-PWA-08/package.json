@@ -1,0 +1,23 @@
+{
+    "name": "IKT-PWA-07",
+    "version": "1.0.0",
+    "description": "Vorlage für Hintergrundsynchronisation -  PWA mit Web-App-Manifest",
+    "main": "index.js",
+    "scripts": {
+        "start": "http-server -c-1"
+    },
+    "keywords": [
+        "pwa",
+        "progressive",
+        "web",
+        "app",
+        "ikt",
+        "htw",
+        "fiw"
+    ],
+    "author": "J. Michel",
+    "license": "ISC",
+    "devDependencies": {
+        "http-server": "^14.1.0"
+    }
+}
