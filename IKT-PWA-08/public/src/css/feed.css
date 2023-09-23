@@ -66,6 +66,10 @@
       width: 100%;
       display: none;
   }
+
+  body {
+    background: #ffed8a;
+  }
   
   
   @media (min-width: 600px) {
@@ -78,11 +82,13 @@
       .shared-moment-card.mdl-card {
           width: 45%;
       }
-      .grid-container { /*anzeige als grid nur bei maximaler breite */
+      
+      .grid-container { /*anzeige als grid nur bei maximaler breite*/
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* 2 columns */
         grid-template-rows: repeat(2, 1fr);    /* 2 rows */
         margin: 5px;
+        
       }
   }
   
@@ -100,6 +106,7 @@
       .shared-moment-card .mdl-card__title {
           height: 380px;
       }
+      
       .grid-container { /*anzeige als grid nur bei maximaler höhe */
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* 2 columns */

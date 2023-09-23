@@ -202,8 +202,6 @@ fetch('http://localhost:3000/posts')
         }
     });
 
-
-
 function updateUI(data) {
     for(let card of data)
     {

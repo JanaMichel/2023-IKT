@@ -1,7 +1,7 @@
 {
-    "name": "IKT-PWA-07",
+    "name": "Reisetagebuch",
     "version": "1.0.0",
-    "description": "Vorlage für Hintergrundsynchronisation -  PWA mit Web-App-Manifest",
+    "description": "Semesteraufgabe",
     "main": "index.js",
     "scripts": {
         "start": "http-server -c-1"

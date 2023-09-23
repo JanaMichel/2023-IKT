@@ -1,10 +1,10 @@
 {
-    "name": "HTW-Insta Erweiterung",
-    "short_name": "HTW-Insta",
+    "name": "Reisetagebuch",
+    "short_name": "Reiseblog",
     "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#76B900",
-    "description": "Eine tolle HTW-Insta-PWA",
+    "description": "Mein Reisetagebuch",
     "lang": "de-DE",
     "dir": "ltr",
     "orientation": "portrait-primary",

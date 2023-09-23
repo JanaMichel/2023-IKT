@@ -92,6 +92,11 @@ body .demo-blog {
           align-items: flex-end;
   cursor: pointer;
 }
+
+body {
+  background: #ffed8a;
+}
+
 .demo-blog .mdl-card__media a,
 .demo-blog .mdl-card__title a {
   color: inherit;
@@ -181,8 +186,9 @@ body .demo-blog {
           order: -1;
 }
 .demo-blog .coffee-pic .mdl-card__media {
-  background-image: url('images/coffee.jpg');
+  background-image: url('../../archiv/images/coffee.jpg');
 }
+
 .demo-blog .something-else .mdl-card__media {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -220,11 +226,11 @@ body .demo-blog {
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
-.demo-blog .on-the-road-again .mdl-card__media {
-  background-image: url('images/road.jpg');
+.demo-blog .on-the-road-again .mdl-card__media { /*road*/
+  background-image: url('../images/ls-lgb.jpg');
 }
 .demo-blog .shopping .mdl-card__media {
-  background-image: url('images/shopping.jpg');
+  background-image: url('../../archiv/images/shopping.jpg');
 }
 .demo-blog .demo-blog__posts > .demo-nav {
   margin: 12px 15px;
@@ -283,7 +289,7 @@ body .demo-blog {
   background-color: transparent;
 }
 .demo-blog--blogpost .demo-blog__posts > .mdl-card .mdl-card__media {
-  background-image: url('images/road_big.jpg');
+  background-image: url('../images/ls-lgb.jpg'); /*road*/
   height: 280px;
 }
 .demo-blog--blogpost .comments {
@@ -447,7 +453,7 @@ body .demo-blog {
 .demo-blog .minilogo {
   width: 44px;
   height: 44px;
-  background-image: url('images/avatar.png');
+  background-image: url('../../archiv/images/avatar.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 50%;
